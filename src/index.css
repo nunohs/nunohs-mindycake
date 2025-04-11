@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply font-body; /* Poppins for body text */
+}
+
+nav, .header {
+  @apply font-header; /* Pacifico for navigation/header */
+}
+
+h1, h2, h3 {
+  @apply font-heading; /* Pacifico for other headings */
+}
+
+section {
+  @apply w-full py-16; /* Full width and increased vertical padding */
+}
