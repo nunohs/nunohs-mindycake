@@ -1,6 +1,6 @@
 # Mindy Cakes Website
 
-A modern, responsive website for Mindy Cakes, showcasing delicious baked goods and confectioneries.
+A modern, responsive website for Mindy Cakes, showcasing delicious baked goods for my mom's small bakery shop.
 
 ## Features
 
