@@ -1,14 +1,11 @@
-import { useState } from 'react'
 import { Link } from 'react-router-dom';  
-import './App.css'
-import './index.css' 
 import { ShoppingBag, Phone, Instagram, Mail, MenuIcon, MapPin, Clock, ShoppingCart, Heart } from "lucide-react"
-import Navbar from './NavBar';
-import Footer from './Footer';
-import ProductCard from './ProductCard';
-import products from './products';
+import Navbar from '../components/NavBar';
+import Footer from '../components/Footer';
+import ProductCard from '../components/ProductCard';
+import products from '../data/products';
 
-function App() {
+function HomePage() {
   const featuredProducts = products.slice(0, 3);
 
   return (
@@ -99,4 +96,4 @@ function App() {
   );
 }
 
-export default App
+export default HomePage; 
