@@ -1,9 +1,9 @@
 import { Link } from 'react-router-dom';  
 import { ShoppingBag, Phone, Instagram, Mail, MenuIcon, MapPin, Clock, ShoppingCart, Heart } from "lucide-react"
-import Navbar from '../components/NavBar';
-import Footer from '../components/Footer';
-import ProductCard from '../components/ProductCard';
-import products from '../data/products';
+import Navbar from '../NavBar';
+import Footer from '../Footer';
+import ProductCard from '../ProductCard';
+import products from '../products';
 
 function HomePage() {
   const featuredProducts = products.slice(0, 3);

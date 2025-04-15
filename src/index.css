@@ -17,3 +17,10 @@ h1, h2, h3 {
 section {
   @apply w-full py-16; /* Full width and increased vertical padding */
 }
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}

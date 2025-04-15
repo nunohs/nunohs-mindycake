@@ -1,7 +1,7 @@
-import Navbar from './NavBar';
-import Footer from './Footer';
-import ProductCard from './ProductCard';
-import products from './products';
+import Navbar from '../NavBar';
+import Footer from '../Footer';
+import ProductCard from '../ProductCard';
+import products from '../products';
 
 function MenuPage() {
   return (

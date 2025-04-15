@@ -9,18 +9,16 @@ function Navbar() {
           MINDY CAKES
         </Link>
         <nav className="hidden md:flex items-center space-x-8">
-          <a href="/#about" className="text-gray-600 hover:text-gray-900">
+          <a href="/about" className="text-gray-600 hover:text-gray-900">
             About
           </a>
           <Link to="/menu" className="text-gray-600 hover:text-gray-900">
             Menu
           </Link>
-          <a href="/#contact" className="text-gray-600 hover:text-gray-900">
+          <a href="/contact" className="text-gray-600 hover:text-gray-900">
             Contact
           </a>
-          <Link to="/cart" className="text-gray-600 hover:text-gray-900">
             <ShoppingBag className="h-5 w-5" />
-          </Link>
         </nav>
       </div>
     </header>
