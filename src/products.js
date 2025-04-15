@@ -22,45 +22,45 @@ const products = [
     },
     {
       id: 4,
-      name: "Red Velvet Cake",
-      description: "Classic red velvet with rich cream cheese",
+      name: "Pandan Kaya Cheese Cake",
+      description: "Sweet Pandan Cheese Cake",
       price: "Rp200.000",
-      image: "/api/placeholder/400/320"
+      image: "/pandankayacheesecake.jpg"
     },
     {
       id: 5,
-      name: "Butter Cookies",
-      description: "Crispy golden butter cookies",
+      name: "Nastar",
+      description: "Traditional Indonesian dessert - Crispy golden butter cookies",
       price: "Rp80.000",
-      image: "/api/placeholder/400/320"
+      image: "/nastar.jpg"
     },
     {
       id: 6,
       name: "Birthday Cake",
       description: "Custom celebration cake with decorations",
       price: "Rp350.000",
-      image: "/api/placeholder/400/320"
+      image: "/ovamaltine.jpg"
     },
     {
       id: 7,
-      name: "Cinnamon Rolls",
-      description: "Sweet and spicy with cream cheese glaze",
+      name: "Fudgy Brownies",
+      description: "Sweet and fudgy brownies",
       price: "Rp120.000",
-      image: "/api/placeholder/400/320"
+      image: "/fudgybrownies.jpg"
     },
     {
       id: 8,
       name: "Black Forest Cake",
       description: "Rich chocolate cake with cherries",
       price: "Rp250.000",
-      image: "/api/placeholder/400/320"
+      image: "/blackforest.jpg"
     },
     {
       id: 9,
-      name: "Croissant",
-      description: "Flaky butter croissants",
+      name: "Baileys Cake",
+      description: "Tender and Creamy Irish Chocolate Cake",
       price: "Rp15.000",
-      image: "/api/placeholder/400/320"
+      image: "/baileyscake.jpg"
     }
   ];
   
