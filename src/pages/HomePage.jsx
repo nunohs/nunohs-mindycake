@@ -31,10 +31,15 @@ function HomePage() {
             <p className="text-softPink text-sm md:text-base mb-6">Freshly baked happiness, delivered with love</p>
 
             {/* Featured Product Card */}
-            <div className="bg-softPink rounded-lg p-4 shadow-md max-w-[200px]">
+            <a 
+              href="https://www.amazon.com/Mindy-Cakes-Cookies-Indonesian-Mot/dp/6020387291" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="bg-softPink rounded-lg p-4 shadow-md max-w-[200px] transform transition-all duration-300 hover:scale-105 hover:shadow-lg hover:bg-pink-200 cursor-pointer"
+            >
               <h3 className="text-gray-800 font-medium">My Book!</h3>
               <p className="text-gray-900 font-bold m-1">$9.99</p>
-            </div>
+            </a>
           </div>
         </section>
 
